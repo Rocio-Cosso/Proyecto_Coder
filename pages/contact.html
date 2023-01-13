@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b29aaf74e.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img class="header__logo" src="../img/Logo blanco.png" alt="Logo Pagina">
+        </a>
+        
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__anchor" href="../index.html">Home</a></li>
+                <li class="header__item"><a class="header__anchor" href="./aboutus.html">About us</a></li>
+                <li class="header__item"><a class="header__anchor" href="./services.html">Services</a></li>
+                <li class="header__item"><a class="header__anchor" href="./openings.html">Openings</a></li>
+                <li class="header__item"><a class="header__anchor__work" href="#">Work with us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Portada__contact">
+            <p class="Titulo__contact">Work with us</p>
+        </section>
+
+        <div class="contacto">
+            <img src="../img/media luna.png" alt="media luna">
+            <form class="formulario" action="#" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    
+                    <div class="campo">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div>
+                        <button class="enviar">Send</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>       
+        
+    </main>
+
+    <footer class="imagen__footer">
+        <div class="grupo__footer">
+            <div class="box__follow">
+                <h3>Follow us</h3>
+                <div class="logo__redes">
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+    
+            </div>
+            <div class="box__imagen">
+                <figure>
+                    <a href="#">
+                        <img src="../img/Logo negro.png" alt="Logo Best hire">
+                    </a>
+                </figure>
+            </div>
+            <div class="boton__footer">
+                <a href="#">Work with us</a>
+            </div> 
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+      </script>
+</body>
+    
+</html>
