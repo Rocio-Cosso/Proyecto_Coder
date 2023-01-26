@@ -598,6 +598,9 @@ li {
         gap: 6rem;}
 
     /**Services**/
+    .card__services {
+        width: 100%;
+        margin: 20px;}
     .contenido__services p {               
     font-size: 1.5rem;}
     .tecnologias p {                
@@ -769,7 +772,7 @@ li {
         width: 100%;
         display: flex;
         flex-direction: column;
-        max-width: 350px;
+        max-width: 390px;
         margin-top: 10rem; 
         justify-content: center;}
     .contenido__services {
@@ -778,7 +781,6 @@ li {
         font-size: 1.2rem;
         margin-bottom: 2rem;}
     .contenido__services ul {
-        padding: 2rem;
         text-align: center;
         list-style: none;}
     .tecnologias {
@@ -821,7 +823,7 @@ li {
         font-size: 1rem;}
     .campo input ,
     .campo textarea {
-        width: 390px;                
+        width: 400px;                
         padding: .8rem;}
     .enviar {                
         font-size: 1rem;                
