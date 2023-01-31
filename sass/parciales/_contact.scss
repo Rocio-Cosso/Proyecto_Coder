@@ -1,0 +1,58 @@
+/*Contact*/
+.Portada__contact {
+    background-image: url("../img/portada\ contact.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.Titulo__contact {
+    font-family: $fuente-principal;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem; 
+    color: $color-blanco; 
+}.contacto {
+    display: flex;
+    padding-top: 10rem;
+}
+.formulario {    
+    padding-left: 10rem;    
+}
+.formulario fieldset {
+    border: none;  
+}
+.formulario legend {
+    font-family: $fuente-principal;
+    font-size: 2rem;
+    color: #0066ff;
+    padding-bottom: 2rem;
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: $color-blanco;
+    font-family: $fuente-principal;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: .5rem;
+    display: block;
+
+}
+.campo input ,
+.campo textarea {
+    background-color: rgba(255, 255, 255, .4);
+    border: none;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.enviar {
+    background: $color-boton;
+    font-family: $fuente-principal; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .5rem;
+    border: none;
+    color: $color-blanco;
+    border-radius: 5px;    
+}

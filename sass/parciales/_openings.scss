@@ -1,0 +1,60 @@
+/*Openings*/
+.Portada__openings {
+    background-image: url("../img/portada\ opening.jpg");
+    background-size: cover;
+    height: 700px;  
+}
+.Titulo__openings {
+    font-family: $fuente-principal;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem; 
+    color: $color-negro; 
+}
+
+.contenedor__openings {
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 2rem;
+    justify-content: center;   
+}
+
+.Contenido__card__openings {
+    width: 300px;
+    height: 110px;
+    margin: 40px;
+    border-radius: 6px;
+    background: $color-blanco; 
+}
+
+.Contenido__card__openings h4 {
+    font-family: $fuente-principal;
+    font-weight: 100;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;  
+}
+.Contenido__card__openings h6 {
+    font-family: $fuente-secundaria;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.Ubicacion {
+    display: flex;
+    margin-left: 1.3rem;
+    align-items: flex-end;
+    font-family: $fuente-secundaria;
+}
+.Ubicacion svg {
+    height: 28px;
+}
+.Detalles {
+    display: flex;
+    align-items: flex-end;    
+}
+.Detalles svg {
+    height: 20px;
+}
+

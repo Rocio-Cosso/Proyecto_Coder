@@ -1,0 +1,33 @@
+/**Navegacion**/
+.header {
+    background-color: rgba(244, 244, 244, 0.32);
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        padding: 1.5rem;
+    }
+    &__list  {
+        display: flex;
+    }
+    &__item {
+        list-style: none;
+        padding: 2rem;       
+    }
+    &__anchor {
+        color: $color-blanco;
+        font-family: $fuente-principal;
+    }
+    .header__anchor__work {
+        background-color: $color-boton;
+        border-radius: 5px;
+        font-family: $fuente-principal;
+        color: $color-blanco;
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+

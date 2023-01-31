@@ -1,0 +1,58 @@
+/*Footer*/
+.imagen__footer{
+    background-image: url("../img/luna\ footer\ \(2\).png");
+    height: 200px;
+    background-size: cover;
+    margin-top: 12rem;
+}
+
+.grupo__footer {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2rem;
+}
+
+.box__follow {
+    text-align: center;
+    
+}
+.box__follow h3{
+    color: $color-blanco;
+    margin-bottom: 1rem;
+    font-family: $fuente-principal;  
+}
+
+.logo__redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: $color-blanco;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.box__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton__footer a {
+    background-color: $color-boton;
+    border-radius: 5px;
+    font-family: $fuente-principal;
+    color: $color-blanco;
+    padding: 1rem;    
+}
+.boton__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

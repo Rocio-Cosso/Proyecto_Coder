@@ -1,0 +1,142 @@
+/*About us*/
+
+.about__portada {
+    background-image: url("../img/portada\ about\ us.jpg");
+    background-size: cover;
+    height: 700px;    
+}
+
+.about__titulo{
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem; 
+    color: #fff; 
+}
+
+/**Contenido**/
+.about__contenido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-around;
+}
+
+.about {
+    display: flex;
+    padding: 10rem;
+    gap: 10rem;
+    align-items: center;
+}
+
+.values__titulo {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    font-style: normal;
+    padding-left: 8rem;
+    margin-top: 5rem;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 5rem;    
+}
+.lista1, .lista2, .lista3 {
+    margin-top: 5rem;
+}
+li {
+    padding-bottom: 10px;
+}
+
+
+
+.services__portada{
+    background-image: url("../img/portada\ servicios2.jpg");
+    background-size: cover;
+    height: 700px;  
+}
+.services__titulo {
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem; 
+    color: #000; 
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    max-width: 2000px;
+    margin-top: 10rem; 
+    justify-content: center; 
+
+}
+.card__services {
+    width: 100%;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;     
+}
+.card__services img{
+    width: 100%;
+}
+.card__services:hover {
+    transform: translateY(-3%);
+}
+.contenido__card {
+    padding: 15px;
+    text-align: center;
+}
+.contenido__card p {
+    line-height: 1.5;
+    color: #6a6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido__card h4 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+}
+.contenido__services {
+    text-align: center;
+    color: #fff;
+    margin-top: 10rem;
+}
+.contenido__services p {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    font-style: normal;
+    margin-bottom: 3rem;
+}
+.contenido__services ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.tecnologias {
+    margin-top: 10rem;
+    text-align: center;
+}
+.tecnologias p {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    font-style: normal;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+/*Portada*/
+.portada__home {
+    background-image:url("../img/fondo\ estrella\ transparente.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+/*Contenido*/
+.contenido__home {
+    margin-left: 8rem;
+} 
+h1 {
+    color: $color-blanco;
+    font-family: $fuente-principal;
+    font-size: 3rem;
+    padding: 2rem;
+    width: 500px;
+    margin-top: 10rem;
+}
+span {
+    background: linear-gradient(90deg, #0066ff 23.8%, #ff3cf7 101.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    color: $color-blanco;
+    font-family: $fuente-principal;
+    font-size: 1.5rem;
+    width: 300px;
+    margin-left: 2rem;  
+}
+.astronauta__home {
+    padding-top: 10rem;
+}
+/*Servicios*/
+.home__servicios__titulo {
+    color: $color-blanco;
+    font-family: $fuente-principal;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.home__servicios {
+    display:flex;
+    justify-content: center;
+}
+
+/**Customers Home**/
+.home__customers{
+    &__titulo{
+        color: $color-blanco;
+        font-family: $fuente-principal;
+        font-size: 2rem;
+        font-style: normal;
+        padding-left: 8rem;
+        margin-top: 9rem;
+    }
+    &__satelite {
+        float: right;  
+    }
+    &__logo{
+        background-color: rgba(255, 255, 255, .4);
+        margin-top: 30rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        height: 100%;
+        align-items: center;
+        & .moneris {
+            height: 100%;
+        }
+    }
+   
+
+}
+
+
+
+
+
