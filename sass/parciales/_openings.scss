@@ -17,7 +17,8 @@
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 2rem;
-    justify-content: center;   
+    justify-content: center;
+    overflow: hidden;   
 }
 
 .Contenido__card__openings {
