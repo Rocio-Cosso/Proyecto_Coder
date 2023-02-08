@@ -26,7 +26,7 @@
         gap: 1rem;}
     .about__contenido p{
         height: 300px;
-        width: 300px;
+        width: 100%;
     }
     .about__imagen{
         width: 400px;}
@@ -209,12 +209,12 @@
         display: grid;
         grid-template-columns: 1fr;}
     .contenido__home {
-        margin-left: 4rem;
+        margin-left: 0rem;
         text-align: center;}
     h1 {
         font-family: $fuente-principal;
         font-size: 2rem;
-        width: 300px;
+        width: 100%;
         margin-top: 5rem;
         text-align: center;}
     h2 {
@@ -292,7 +292,7 @@
         align-items: center;
         }
     .about__imagen{
-        width: 425px;
+        width: 80%;
     }
     .titulo__values {
         font-size: 1.2rem;
@@ -309,7 +309,9 @@
     .lista1, .lista2, .lista3 {
         margin-top: 3rem;}
     li {
-        padding-bottom: 6px;}
+        font-size: 14px;
+        text-align: justify;
+        padding: 10px;}
       
     /**Services**/
     .services__portada{
@@ -318,11 +320,11 @@
         font-size: 2rem;}
     .contenedor {
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        display: block;
         max-width: 390px;
-        margin-top: 10rem; 
-        justify-content: center;}
+        margin-top: 0rem;}
+    .card__services{
+        width:auto;}
     .contenido__services {
         margin-top: 6rem;}
     .contenido__services p {               
@@ -337,7 +339,7 @@
         font-size: 1.2rem;
         font-style: normal;}
     .tecnologias img {
-        max-width: 400px;}
+        max-width: 90%;}
 
     /**Opening**/
     .Portada__openings {
@@ -369,6 +371,7 @@
     .formulario legend {               
         font-size: 1.2rem;                
         padding-bottom: 1rem;}
+    
     .campo label {
         font-size: 1rem;}
     .campo input ,
