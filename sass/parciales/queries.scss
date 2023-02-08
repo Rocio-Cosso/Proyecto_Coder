@@ -210,7 +210,8 @@
         grid-template-columns: 1fr;}
     .contenido__home {
         margin-left: 0rem;
-        text-align: center;}
+        text-align: center;
+        width: 100%;}
     h1 {
         font-family: $fuente-principal;
         font-size: 2rem;
@@ -219,8 +220,8 @@
         text-align: center;}
     h2 {
         font-size: 1rem;
-        width: 200px;
-        text-align: center;
+        width: 80%; 
+        text-align: center;       
         padding-left: 1rem;}
     .astronauta__home {
         max-height: 400px;
@@ -310,7 +311,7 @@
         margin-top: 3rem;}
     li {
         font-size: 14px;
-        text-align: justify;
+        text-align: center;
         padding: 10px;}
       
     /**Services**/
@@ -321,7 +322,7 @@
     .contenedor {
         width: 100%;
         display: block;
-        max-width: 390px;
+        max-width: 425px;
         margin-top: 0rem;}
     .card__services{
         width:auto;}
