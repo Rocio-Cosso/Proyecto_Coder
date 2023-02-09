@@ -14,20 +14,23 @@
     <title>Contact</title>
 </head>
 <body>
-    <header class="header">
-        <a href="#">
-            <img class="header__logo" src="../img/Logo blanco.png" alt="Logo Pagina">
-        </a>
-        
-        <nav>
-            <ul class="header__list">
-                <li class="header__item"><a class="header__anchor" href="../index.html">Home</a></li>
-                <li class="header__item"><a class="header__anchor" href="./aboutus.html">About us</a></li>
-                <li class="header__item"><a class="header__anchor" href="./services.html">Services</a></li>
-                <li class="header__item"><a class="header__anchor" href="./openings.html">Openings</a></li>
-                <li class="header__item"><a class="header__anchor__work" href="#">Work with us</a></li>
-            </ul>
-        </nav>
+    <header>
+        <nav class="nav">
+            <div class="nav__container">
+                <img src="../img/Logo blanco.png" class="nav__logo" alt="Logo pagina">
+                <label for="menu" class="nav__label">
+                    <img src="../img/menu.png" class="nav__img" alt="Menu">                    
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+                <div class="nav__menu">
+                    <a class="nav__item"  href="../index.html">Home</a>
+                    <a class="nav__item" href="./aboutus.html">About us</a>
+                    <a class="nav__item" href="./services.html">Services</a>
+                    <a class="nav__item" href="./openings.html">Openings</a>
+                    <a class="nav__item-active" href="#">Work with us</a>
+                </div>
+            </div>
+        </nav> 
     </header>
 
     <main>
